@@ -1,0 +1,98 @@
+body {
+	background: #000 none repeat scroll 0 0;
+}
+.main_wrap {
+	margin-top: 30px;
+}
+.main {
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+	width: 700px;
+	height: 450px;
+	background-color: #fff;
+	padding-top: 25px;
+}
+.progress {
+	background-color: #eaeaea;
+	height: 25px;
+	margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+	width: 90%;
+}
+.progress_color {
+	background-color: #99d2ff;
+	float: left;
+	height: 25px;
+	width: 50%;
+}
+.progress_complete {
+	height: 25px;
+	width: 50%;
+	float: left;
+}
+label {
+	font-size: 15px;
+	left: 0;
+	line-height: 25px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+
+.div-text {
+	font-size: 11px;
+	color: #828282;
+	margin: 20px auto;
+	position: relative;
+}
+.containt {
+	position: relative;
+	width: 100%;
+}
+.containt_main {
+	width: 60%;
+}
+.containt_img {
+	width: 40%;
+}
+.containt_img,.containt_main {
+	float: left;
+	position: relative;
+}
+.containt_text strong{
+	color: #000;
+}
+.containt_text {
+	font-size: 23px;
+	margin: 20px auto;
+	text-align: left;
+	padding: 0 26px;
+	color: #828282;
+}
+.containt_img img {
+	width: 241px;
+	box-shadow: 4px 4px #dadada;
+	padding-left: 16px;
+}
+
+form > input {
+	border: 1px solid #dddddd;
+	float: left;
+	height: 40px;
+	margin: 7px 0 7px 26px;
+	width: 340px;
+	padding-left: 13px
+}
+input[type="submit"] {
+	background-color: #46a805;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	height: 54px;
+	border: 1px solid #2d7100;
+	width: 354px;
+	padding-left: 0px
+}
